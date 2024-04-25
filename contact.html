@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Steep Slope Ski Resort | Contact</title>
+        <meta name="author" content="Stephen Carey">
+        <meta name="description" content="Welcome to the Steep Slope SKi Resort.  Contact us today to book reservations, to learn more, or to express your concerns.">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Steep Slope Ski Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="contact-main">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *</p>
+            <img width="350" height="455" src="images/swiss-peak.jpg" alt="A river valley with a forest on both sides and a big snowy mountain peak in the background.">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <label for="my-name">full name *</label>
+                <input type="text" id="my-name" name="my-name" required>
+
+                <label for="my-email">email address *</label>
+                <input type="email" id="my-email" name="my-email" required>
+
+                <label for="my-phone">phone number *</label>
+                <input type="tel" id="my-phone" name="my-phone" required>
+
+                <fieldset>
+                    <legend>preferred contact method *</legend>
+                    <input type="radio" id="email-pref" name="contact-method" checked>
+                    <label for="email-pref" id="email-label">email</label>
+
+                    <input type="radio" id="phone-pref" name="contact-method">
+                    <label for="phone-pref">phone</label>
+                </fieldset>
+
+                <label for="my-comments">comments *</label>
+                <textarea id="my-comments" name="my-comments" required></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit" value="submit">
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; - Steep Slope Ski Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
